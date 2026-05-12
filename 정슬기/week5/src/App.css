@@ -1,0 +1,17 @@
+body{
+  padding: 20px; /*내부 여백*/
+}
+
+/*브라우저를 늘려도 화면 가운데에 위치할 수 있도록*/
+.App{
+  margin: 0 auto;
+  width: 400px;
+}
+
+.App > section {
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
