@@ -1,0 +1,10 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /*App이라는 클래스네임을 갖는 요소 밑에 있는 자식요소의 배치를 유연하게 함
+  flex: 기본적으로 붙어서 배치*/
+    /*column 설정: 열 기준으로 세로로 배치*/
+  }
